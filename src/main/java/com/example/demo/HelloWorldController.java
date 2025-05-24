@@ -9,7 +9,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello/{name}")
     public String hello(@PathVariable String name) {
-        return "Pozdrav, " + name + "!";
+        return "Pozdrav1, " + name + "!";
     }
 }
 
