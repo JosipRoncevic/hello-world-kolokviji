@@ -93,4 +93,4 @@ jobs:
           cluster: ${{ secrets.OKE_CLUSTER_OCID }}
 
       - name: Run Kubectl
-        run: kubectl apply -f spring-app.yaml
+        run: kubectl apply -f deployment.yaml
